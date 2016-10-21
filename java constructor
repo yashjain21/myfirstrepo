@@ -1,0 +1,23 @@
+class box 
+{
+double height;
+double width;
+double length;
+box(double x,double y,double z) //class box constructor created
+{
+heigth = x;
+width = y;
+length = z;
+}
+double volume() //method volume
+{
+double vol=(width*heigth*length);
+return vol;
+}
+}
+class box123
+{
+box mybox1= new box(10,10,25) //object of class box created
+double vol1 = mybox1.volume();
+System.out.println("volume of the box is :" +vol1);
+}
